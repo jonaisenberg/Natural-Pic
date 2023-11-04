@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import { UseFotos } from '../context/MyContext'
 import Card from 'react-bootstrap/Card'
 
