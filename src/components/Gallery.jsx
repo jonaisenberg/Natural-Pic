@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable react/jsx-key */
 import Card from 'react-bootstrap/Card'
 import { UseFotos } from '../context/MyContext'
 import IconHeart from './IconHeart'
