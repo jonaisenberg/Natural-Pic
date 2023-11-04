@@ -4,7 +4,7 @@ import PhotoUrl from '../../public/photos.json'
 const ImagenContext = createContext()
 
 // eslint-disable-next-line react/prop-types
-export function ImageProvider ({ children }) {
+function ImageProvider ({ children }) {
   const [fotos, setFotos] = useState(PhotoUrl.photos)
 
   const like = (id) => {
@@ -24,3 +24,5 @@ export function ImageProvider ({ children }) {
 export function UseFotos () {
   return useContext(ImagenContext)
 }
+
+export default ImageProvider
